@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script>
+        let foot = prompt("Enter foot: ");
+        let meter = prompt("Enter meter: ");
+        function footToMeter(foot) {
+            return 0.305 * foot;
+        }
+        function meterToFoot(meter) {
+            return 3.279 * meter;
+        }
+        alert("Meter is: " + footToMeter(foot).toFixed(3));
+        alert("Foot is: " + meterToFoot(meter).toFixed(1));
+
+    </script>
+</body>
+</html>

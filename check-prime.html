@@ -8,24 +8,21 @@
     <script>
         let num = parseInt(prompt("Nhập số nguyên bất kì"));
 
-
         function isPrime(number) {
             let n = 0;
             for(let i = 1; i <= number; i++) {
-                if(number % i == 0) {
+                if (number%i == 0) {
                     n++;
                 }
             }
             return n;
         }
-
         let a = isPrime(num);
         if(a === 2) {
-            alert("la so nguyen to");
+            alert("Là số nguyên tố");
         } else {
-            alert("khong phai so nguyen to");
+            alert("Không phải số nguyên tố");
         }
-
     </script>
 </body>
 </html>
